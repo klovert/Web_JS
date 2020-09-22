@@ -23,7 +23,7 @@ body{
 .header{
     height: 100vh;
     /* 02 */
-    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(img/woman.jpg);
+    background-image: linear-gradient(to top, rgba(201, 88, 253, 0.486) 0%, hsla(281, 51%, 34%, 0.514) 100%), url(img/laptop.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -58,11 +58,7 @@ body{
     top: 0;
     width: 30vw;
     height: 100%;
-    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c0ee 100%); */
-    /* 02 */
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-    /* 028 */
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: linear-gradient(135deg, #6441A5 0%, #2a0845 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -97,7 +93,7 @@ body{
 /* Services */
 
 .subtitulo{
-    color: #9f8ad0;
+    color: #5c0a9e;
     font-size: 40px;
     text-align: center;
     font-weight: 300;
@@ -125,13 +121,13 @@ body{
 
 .n-service{
     margin-bottom: 7px;
-    color: #9f8ad0;
+    color: #5c0a9e;
 }
 
 .number{
     display: inline-block;
     /* 02 */
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to top, #6441A5 0%, #c798ee 100%);
     line-height: 30px;
     text-align: center;
     border-radius: 50%;
@@ -226,7 +222,7 @@ body{
 }
 
 footer{
-    background: #9f8ad0;
+    background: #6441A5;
     padding-bottom: 0.1px;
 }
 
@@ -287,7 +283,7 @@ footer{
 
 .social-media-icon:hover{
     background: #fff;
-    color:#764ba2;
+    color:#29054d;
 }
 
 @media screen and (max-width: 800px){
